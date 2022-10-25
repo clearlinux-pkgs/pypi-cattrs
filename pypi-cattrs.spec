@@ -4,7 +4,7 @@
 #
 Name     : pypi-cattrs
 Version  : 22.2.0
-Release  : 15
+Release  : 16
 URL      : https://files.pythonhosted.org/packages/fc/da/ff3239eb4241cbc6f8b69f53d4ca27a178d51f9e5a954f1a3588c8227dc5/cattrs-22.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/fc/da/ff3239eb4241cbc6f8b69f53d4ca27a178d51f9e5a954f1a3588c8227dc5/cattrs-22.2.0.tar.gz
 Summary  : Composable complex class support for attrs and dataclasses.
