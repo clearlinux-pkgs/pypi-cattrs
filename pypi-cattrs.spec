@@ -6,10 +6,10 @@
 # autospec commit: e661f3a
 #
 Name     : pypi-cattrs
-Version  : 23.2.0
-Release  : 22
-URL      : https://files.pythonhosted.org/packages/cf/0f/7b0994ea870582ecb3e76d4c3b095bda3fcd03ee17889e79ad16812b9db7/cattrs-23.2.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/cf/0f/7b0994ea870582ecb3e76d4c3b095bda3fcd03ee17889e79ad16812b9db7/cattrs-23.2.0.tar.gz
+Version  : 23.2.1
+Release  : 23
+URL      : https://files.pythonhosted.org/packages/5c/a0/e0945a243e6f0c16d7467f063d2553350a745beebf246b40aaf86264afb1/cattrs-23.2.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/5c/a0/e0945a243e6f0c16d7467f063d2553350a745beebf246b40aaf86264afb1/cattrs-23.2.1.tar.gz
 Summary  : Composable complex class support for attrs and dataclasses.
 Group    : Development/Tools
 License  : MIT
@@ -66,10 +66,10 @@ python3 components for the pypi-cattrs package.
 
 
 %prep
-%setup -q -n cattrs-23.2.0
-cd %{_builddir}/cattrs-23.2.0
+%setup -q -n cattrs-23.2.1
+cd %{_builddir}/cattrs-23.2.1
 pushd ..
-cp -a cattrs-23.2.0 buildavx2
+cp -a cattrs-23.2.1 buildavx2
 popd
 
 %build
@@ -77,7 +77,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1700246822
+export SOURCE_DATE_EPOCH=1700439995
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
