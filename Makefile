@@ -1,5 +1,5 @@
 PKG_NAME := pypi-cattrs
-URL = https://files.pythonhosted.org/packages/1e/57/c6ccd22658c4bcb3beb3f1c262e1f170cf136e913b122763d0ddd328d284/cattrs-23.2.3.tar.gz
+URL = https://files.pythonhosted.org/packages/f2/9c/22b4010404d899d7012474f1539c4163b22e77ca55f444e945c2095dbdde/cattrs-24.1.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
